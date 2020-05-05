@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  mini-server-1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-05T12:37:08.978725+02:00"
+    dependencies:
+    - name: mini-server-3
+      repository: https://mosarvit.github.io/three_servers/
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 187946fa1277648fa49e4165286ced24dbf04d2c178bbaf34e905a92287b1023
+    name: mini-server-1
+    type: application
+    urls:
+    - https://mosarvit.github.io/three_servers/mini-server-1-0.1.0.tgz
+    version: 0.1.0
+  mini-server-3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-05T12:37:08.979671+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 87bb42748a7169dc452bd41c993bb8e69422e530c05e076713953a6939f5ce1a
+    name: mini-server-3
+    type: application
+    urls:
+    - https://mosarvit.github.io/three_servers/mini-server-3-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-05-05T12:37:08.976745+02:00"
